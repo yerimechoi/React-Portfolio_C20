@@ -38,7 +38,7 @@ function Header() {
                     <a href="/contact" style={linkStyle}>Contact</a>
                 </div>
                 <div>
-                    <button onclick={onButtonClick}
+                    <button onClick={onButtonClick}
                     style={{
                         backgroundColor: 'transparent',
                         border: 'none',
