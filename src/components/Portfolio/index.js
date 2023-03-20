@@ -25,10 +25,7 @@ function Portfolio() {
             <div>
                 <ul>
                     <li>
-                        <Project project={project[0]} />
-                    </li>
-                    <li>
-                        <Project project={project[1]} />
+                        <Project project={project} />
                     </li>
                 </ul>
             </div>

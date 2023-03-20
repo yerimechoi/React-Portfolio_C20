@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+function Header(currentPage, handlePageChange) {
     const onButtonClick = () => {
         fetch('resume.pdf').then(res => {
             res.blob().then(blob => {
@@ -13,37 +13,73 @@ function Header() {
         })
     };
 
-    const overallStyle = { padding: '20px', fontFamily: 'Helvetica', fontSize: '20px'};
-    const linkStyle = { padding: '10px', textDecoration: 'none', color: 'black' };
+    const overallStyle = {
+        fontFamily: 'Helvetica',
+        backgroundColor: '#424875',
+        padding: '10px',
+        display: 'flex',
+        flexDirection: 'center',
+        justifyContent: 'space-between',
+        marginBottom: '50px',
+    };
+
+    const linkStyle = {
+        padding: '23px',
+        margin: '23px',
+    };
+
+    const titleLinkStyle = {
+        padding: '20px',
+        margin: '20px',
+    }
+
+    const titleStyle = {
+        textDecoration: 'none',
+        color: 'white',
+        fontSize: '30px',
+    }
+
+    const style = {
+        textDecoration: 'none',
+        color: 'white',
+        fontSize: '20px',
+    }
 
     return (
         <nav style={overallStyle}>
             <div
-                style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                }}
+            style={{
+            }}>
+                <div style={titleLinkStyle}>
+                    <a href="/" style={titleStyle} onClick={() => handlePageChange('About')} className={currentPage === 'About'}>Esther Choi</a>
+                </div>
+            </div>
+
+            <div
+            style={{
+                display: 'flex',
+            }}
             >
-                <div>
-                    <a href="/" style={linkStyle}>Esther Choi</a>
+                <div style={linkStyle}>
+                    <a href="/" style={style} onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
                 </div>
-                <div>
-                    <a href="/" style={linkStyle}>About</a>
+                <div style={linkStyle}>
+                    <a href="/portfolio" style={style} onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
                 </div>
-                <div>
-                    <a href="/portfolio" style={linkStyle}>Portfolio</a>
-                </div>
-                <div>
-                    <a href="/contact" style={linkStyle}>Contact</a>
+                <div style={linkStyle}>
+                    <a href="/contact" style={style} onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
                 </div>
                 <div>
                     <button onClick={onButtonClick}
-                    style={{
-                        backgroundColor: 'transparent',
-                        border: 'none',
-                        fontSize: '20px'
-                    }}>Resume</button>
+                        style={{
+                            backgroundColor: 'transparent',
+                            border: 'none',
+                            fontSize: '20px',
+                            cursor: 'pointer',
+                            padding: '23px',
+                            margin: '23px',
+                            color: 'white',
+                        }}>Resume</button>
                 </div>
             </div>
         </nav>

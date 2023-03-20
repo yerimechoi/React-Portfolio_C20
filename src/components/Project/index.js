@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Project(props) {
     const currentProject = useState(props).project[0];
@@ -19,10 +18,8 @@ function Project(props) {
                 </h3>
                 <div>
                     <a href={repo}>
-                        <FontAwesomeIcon icon="fa-brands fa-github" />
                     </a>
                     <a href={link}>
-                        <FontAwesomeIcon icon="fa-solid fa-link" />
                     </a>
                 </div>
                 <p>{description}</p>
