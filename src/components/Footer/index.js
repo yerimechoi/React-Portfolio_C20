@@ -1,9 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { Link } from 'react-router-dom';
 
 function Footer() {
-    const overallStyle = { padding: '20px', fontFamily: 'Helvetica', fontSize: '20px' };
-    const linkStyle = { textDecoration: 'none', color: 'black' };
+    const overallStyle = { padding: '20px', fontFamily: 'Helvetica', fontSize: '20px', backgroundColor: 'black' };
+    const linkStyle = { textDecoration: 'none', color: 'white' };
     const style = { padding: '10px' };
 
     return (
@@ -15,10 +16,11 @@ function Footer() {
                 }}  
             >
                 <div style={style}>
-                    <a href='https://github.com/yerimechoi' style={linkStyle}>
+                    <button style={linkStyle}>
+                        {/* <Link to="https://github.com/yerimechoi"> */}
                         <FontAwesomeIcon icon="fa-brands fa-github" />
-                        <p>GitHub</p>
-                    </a>
+                        {/* </Link> */}
+                    </button>
                 </div>
                 <div style={style}>
                     <a href='https://www.linkedin.com/in/ye-rim-esther-choi/' style={linkStyle}>
