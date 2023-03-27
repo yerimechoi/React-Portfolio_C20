@@ -9,7 +9,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #ffffffb1;
+  background-color: #ffffffe3;
   font-family: 'Monsterrat', sans-serif;
 }
 
@@ -100,7 +100,7 @@ cursor: default;
 
 /* About */
 .about {
-  margin: 150px 50px 150px 50px;
+  margin: 200px 50px 150px 50px;
   font-family: 'Darker Grotesque', sans-serif;
   height: 100%;
 }
@@ -148,11 +148,51 @@ cursor: default;
 
 /* Work */
 .work {
-  margin: 150px 50px 150px 50px;
+  margin: 200px 50px 150px 50px;
   font-family: 'Darker Grotesque', sans-serif;
   height: 100%;
 }
 
+.headerWork {
+  font-size: 30px;
+  padding-bottom: 50px;
+  font-weight: 200;
+}
+
+.cardWork {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0 0 0;
+}
+
+/* Project */
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0 0;
+}
+
+.projectCard img {
+  width: 100%;
+}
+
+.projectTitle {
+font-size: 30px;
+font-weight: 500;
+}
+
+.projectA {
+  font-size: 25px;
+  color: black;
+  padding: 0 5px 0 5px;
+}
+
+.para {
+  font-size: 20px;
+  line-height: 1.25;
+  border-bottom: #000000 1px solid;
+  padding: 0 0 15px 0;
+}
 
 
 

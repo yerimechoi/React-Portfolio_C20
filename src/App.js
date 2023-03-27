@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -8,7 +9,7 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Work');
+  const [currentPage, setCurrentPage] = useState('Home');
 
   const renderTab = () => {
     if (currentPage === 'Home') {

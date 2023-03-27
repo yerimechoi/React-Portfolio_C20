@@ -16,18 +16,18 @@ function Header({ currentPage, handlePageChange }) {
     return (
         <nav className="headerStyle">
             <div className="headerNavStyle">
-                <a href="#" onClick={() => handlePageChange('Home')}>YREC</a>
+                <a onClick={() => handlePageChange('Home')}>YREC</a>
             </div>
 
             <div className="flex">
                 <div className="headerNavLi">
-                    <a href="#about" onClick={() => handlePageChange('About')}>About</a>
+                    <a onClick={() => handlePageChange('About')}>About</a>
                 </div>
                 <div className="headerNavLi">
-                    <a href="/work" onClick={() => handlePageChange('Work')}>Work</a>
+                    <a onClick={() => handlePageChange('Work')}>Work</a>
                 </div>
                 <div className="headerNavLi">
-                    <a href="#contact" onClick={() => handlePageChange('Contact')}>Contact</a>
+                    <a onClick={() => handlePageChange('Contact')}>Contact</a>
                 </div>
                 <div className="headerNavLi">
                     <button onClick={onButtonClick}>Resume</button>

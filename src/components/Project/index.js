@@ -1,28 +1,23 @@
-import React, {useState} from 'react';
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function Project(props) {
-    const currentProject = useState(0);
-    const { id, name, repo, link, description } = currentProject;
-
-    const overallStyle = { padding: '10px' };
-
     return (
-        <div className="headerAbout" key={id}>
-            <img
-                src={`../../../Assets/${name}.jpg`}
-                alt={name}
-            />
+        <div className="projectCard">
+            <img className="img-top" src={props.image} alt={props.title}/>
             <div>
-                <h3>
-                    {name}
-                </h3>
+                <h5 className="projectTitle">{props.title}</h5>
                 <div>
-                    <a href={repo}>
+                    <a href={props.repo} className="projectA">
+                        <FontAwesomeIcon icon={brands ("github")} />
                     </a>
-                    <a href={link}>
+                    <a href={props.link} className="projectA">
+                        <FontAwesomeIcon icon={solid ("link")} />
                     </a>
                 </div>
-                <p>{description}</p>
+                <p className="para">{props.description}</p>
+
             </div>
         </div>
     )
