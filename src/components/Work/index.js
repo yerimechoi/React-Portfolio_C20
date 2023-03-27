@@ -1,7 +1,7 @@
 import React from "react";
 import Project from '../Project';
 
-function Portfolio() {
+function Work() {
     const project = [
         {
             id: 0,
@@ -20,7 +20,7 @@ function Portfolio() {
     ]
 
     return (
-        <main>
+        <main className="work">
             <h1>Projects</h1>
             <div>
                 <ul>
@@ -33,4 +33,4 @@ function Portfolio() {
     )
 };
 
-export default Portfolio;
+export default Work;

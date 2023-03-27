@@ -3,37 +3,24 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function About() {
-    const overallStyle = {
-        padding: '60px 60px',
-        fontFamily: 'Helvetica',
-        color: '#2f3356',
-    };
-
-    const iconStyle = {
-        fontSize: '150px',
-        padding: '10px 0 10px 0',
-        margin: '0 25px 0 10px'
-    }
-
-    const layoutStyle = {
-        display: 'flex',
-        flexDirection: 'row',
-        margin: '50px 0 0 0',
-    }
-
-    const paraStyle = {
-        padding: '10px 0 10px 0',
-        margin: '25px 10px 0 75px'
-    }
-
     return (
-        <main style={overallStyle}>
-            <h1>About Me</h1>
-            <div style={layoutStyle}>
-                <h1 style={iconStyle}><FontAwesomeIcon icon={solid("user")} /></h1>
-                <h3 style={paraStyle}>Ye Rim (Esther) Choi is a UX/UI designer and a developer based in Toronto, Canada. She graduated from architecture but decided it wasn’t for her. Two things Esther is passionate about is design and technology. She began to explore different areas of design and technology and found UX/UI was the right fit. However, she wanted to make her designs come to life by learning different coding languages. She took BrainStation UX/UI courses and is in the process of taking UofT SCS coding bootcamp.</h3>
+        <main className="about">
+            <h2 className="headerAbout">About Me</h2>
+            <div className="aboutMeLayout">
+                <h1 className="icon">
+                    <FontAwesomeIcon icon={solid ("user")} />
+                    </h1>
+                <p className="aboutMePara">Ye Rim (Esther) Choi is a UX/UI designer and a developer based in Toronto, Canada. She graduated from architecture but decided it wasn’t for her. Two things Esther is passionate about is design and technology. She began to explore different areas of design and technology and found UX/UI was the right fit. However, she wanted to make her designs come to life by learning different coding languages. She took BrainStation UX/UI courses and is in the process of taking UofT SCS coding bootcamp.</p>
             </div>
-
+            <div>
+                <h3 className="aboutMeSubHeader">Education</h3>
+                <ul className="aboutMeUl">
+                    <li>Present: Certificate, Coding Bootcamp, UofT CSC</li>
+                    <li>Spring 2022: Certificate for UX Design, BrainStation</li>
+                    <li>Winter 2022: Certificate for UI Design, BrainStation</li>
+                    <li>Summer 2021: BDes, Environmental Design, OCAD University</li>
+                </ul>
+            </div>
         </main>
     )
 };

@@ -1,15 +1,15 @@
-import React,{useState} from 'react';
+import React, {useState} from 'react';
 
 function Project(props) {
-    const currentProject = useState(props).project[0];
-    const { name, repo, link, description } = currentProject;
+    const currentProject = useState(0);
+    const { id, name, repo, link, description } = currentProject;
 
     const overallStyle = { padding: '10px' };
 
     return (
-        <div style={overallStyle} key={name}>
+        <div className="headerAbout" key={id}>
             <img
-                src={require(`../../../Assets/${name}.jpg`).default}
+                src={`../../../Assets/${name}.jpg`}
                 alt={name}
             />
             <div>

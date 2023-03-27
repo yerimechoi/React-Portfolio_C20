@@ -1,6 +1,182 @@
-* {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+
+/* Header */
+.headerStyle {
+  display: flex;
+  flex-direction: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffffb1;
+  font-family: 'Monsterrat', sans-serif;
+}
+
+.headerNavStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  padding-left: 30px;
+}
+
+.headerNavStyle a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 100;
+  font-style: italic;
+  padding-top: 30px;
+  color: black;
+}
+
+.headerNavStyle a:hover {
+  text-decoration: #ffe100 5px underline;
+}
+
+.flex {
+  display: flex;
+}
+
+.headerNavLi {
+  margin: 32px;
+  padding-top: 10px;
+}
+
+.headerNavLi a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-style: none;
+}
+
+.headerNavLi button {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  font-style: none;
+}
+
+.headerNavLi a:hover {
+  font-style: italic;
+  text-decoration: #ffe100 5px underline;
+}
+
+.headerNavLi button:hover {
+  font-style: italic;
+  text-decoration: #ffe100 5px underline;
+}
+
+/* Home */
+.home {
+  margin: 275px 50px 275px 50px;
+  font-family: 'Darker Grotesque', sans-serif;
+  height: 100%;
+}
+
+.welcome {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.bounce h1 {
+  font-size: 35px;
+  font-style: italic;
+  padding: 0px;
+  font-weight: 100;
+}
+
+.bounce h2 {
+  font-size: 25px;
+}
+
+.word:hover {
+background-color: #ffe100;
+cursor: default;
+}
+
+/* About */
+.about {
+  margin: 150px 50px 150px 50px;
+  font-family: 'Darker Grotesque', sans-serif;
+  height: 100%;
+}
+
+.headerAbout {
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-weight: 200;
+}
+
+.aboutMeLayout {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0 0 0;
+}
+
+.icon {
+  font-size: 100px;
+  padding: 10px 0;
+  margin: 0 0 50px 0;
+  color: #d5d5d5;
+}
+
+.aboutMePara {
+  padding: 10px 0;
+  margin: 25px 10px 0 50px;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.aboutMeSubHeader {
+  font-size: 28px;
+  font-weight: 200;
+  margin: 50px 0 0 0;
+}
+
+.aboutMeUl {
+  font-size: 20px;
+  padding: 0px 20px;
+}
+
+.aboutMeUl li {
+  line-height: 1.25;
+}
+
+/* Work */
+.work {
+  margin: 150px 50px 150px 50px;
+  font-family: 'Darker Grotesque', sans-serif;
+  height: 100%;
+}
+
+
+
+
+
+/* Footer */
+footer {
   padding: 0;
-  font: helvetica;
-  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  width: 100%;
+  background-color: #000000;
+  margin-top: 50px;
+}
+
+.footerStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footerStyle div {
+  padding: 30px 50px 30px 50px;
+}
+
+.footerStyle div a {
+  color: white;
+  font-size: 30px;
 }
