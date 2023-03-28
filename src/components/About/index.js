@@ -10,7 +10,7 @@ function About() {
                 <h1 className="icon">
                     <FontAwesomeIcon icon={solid ("user")} />
                     </h1>
-                <p className="aboutMePara">Ye Rim (Esther) Choi is a UX/UI designer and a developer based in Toronto, Canada. She graduated from architecture but decided it wasn’t for her. Two things Esther is passionate about is design and technology. She began to explore different areas of design and technology and found UX/UI was the right fit. However, she wanted to make her designs come to life by learning different coding languages. She took BrainStation UX/UI courses and is in the process of taking UofT SCS coding bootcamp.</p>
+                <p className="aboutMePara">Ye Rim (Esther) Choi is a UX/UI Designer and a Developer based in Toronto, Canada. She graduated from architecture but decided it wasn’t for her. Two things Esther is passionate about is design and technology. She began to explore different areas of design and technology and found UX/UI was the right fit. However, she wanted to make her designs come to life by learning different coding languages. She took BrainStation UX/UI courses and is in the <span className="word">process of taking UofT SCS coding bootcamp.</span></p>
             </div>
             <div>
                 <h3 className="aboutMeSubHeader">Education</h3>

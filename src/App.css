@@ -111,9 +111,9 @@ cursor: default;
 }
 
 .headerAbout {
-  font-size: 30px;
   margin-bottom: 50px;
   font-weight: 200;
+  text-decoration: #ffe100 5px underline;
 }
 
 .aboutMeLayout {
@@ -159,9 +159,9 @@ cursor: default;
 }
 
 .headerWork {
-  font-size: 30px;
   padding-bottom: 50px;
   font-weight: 200;
+  text-decoration: #ffe100 5px underline;
 }
 
 .cardWork {
@@ -208,6 +208,7 @@ font-weight: 500;
 
 .contact h2 {
   margin-bottom: 50px;
+  text-decoration: #ffe100 5px underline;
 }
 
 .contactForm {
@@ -229,12 +230,16 @@ font-weight: 500;
   margin: 10px 0 100px 0;  
   text-decoration: none;
   text-align: center;
-  background-color: black;
+  background-color: #414141;
+  border: #414141 5px solid;
   font-size: 20px;
   color: white;
-  border: none;
-  padding: 5px 0;
   border-radius: 3px;
+}
+
+.contactButton:hover {
+  background-color: black;
+  border: black 5px solid;
 }
 
 /* Footer */
