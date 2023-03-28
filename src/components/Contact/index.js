@@ -39,21 +39,21 @@ function Contact() {
                 <form>
                     <div className="form">
                         <label>Name</label>
-                        <input type="text" defaultValue={name}/>
+                        <input type="text" defaultValue={name} onChange={handleChange}/>
                     </div>
 
                     <div className="form">
                         <label>Email</label>
-                        <input type="email" defaultValue={email}/>
+                        <input type="email" defaultValue={email} onChange={handleChange}/>
                     </div>
 
                     <div className="form">
                         <label>Message</label>
-                        <textarea defaultValue={message}></textarea>
+                        <textarea defaultValue={message} onChange={handleChange}></textarea>
                     </div>
 
                     <div>
-                        <button className="contactButton">Submit</button>
+                        <button className="contactButton" onClick={handleSubmit}>Submit</button>
                     </div>
 
                 </form>
