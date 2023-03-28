@@ -2,6 +2,7 @@
   "name": "react-portfolio_c20",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yerimechoi.github,io/react-portfolio_c20/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
@@ -14,6 +15,7 @@
     "@testing-library/user-event": "^12.1.10",
     "babel-plugin-macros": "^3.1.0",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "react": "^16.4.0",
     "react-animations": "^1.0.0",
     "react-dom": "^16.4.0",
@@ -24,6 +26,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
