@@ -32,7 +32,7 @@
 }
 
 .headerNavStyle a:hover {
-  text-decoration: #ffe100 5px underline;
+  text-decoration: #ffe100 5px underline !important;
   cursor: pointer;
 }
 
@@ -53,6 +53,12 @@
   cursor: pointer;
 }
 
+.headerNavLi a:hover {
+  font-style: italic;
+  text-decoration: #ffe100 5px underline !important;
+  cursor: pointer;
+}
+
 .headerNavLi button {
   background-color: transparent;
   text-decoration: none;
@@ -63,15 +69,9 @@
   font-style: none;
 }
 
-.headerNavLi a:hover {
-  font-style: italic;
-  text-decoration: #ffe100 5px underline;
-  cursor: pointer;
-}
-
 .headerNavLi button:hover {
   font-style: italic;
-  text-decoration: #ffe100 5px underline;
+  text-decoration: #ffe100 5px underline !important;
 }
 
 /* Home */
