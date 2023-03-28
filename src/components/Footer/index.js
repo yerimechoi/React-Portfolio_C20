@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function Footer() {
     return (
@@ -14,11 +14,6 @@ function Footer() {
                 <div>
                     <a href='https://www.linkedin.com/in/ye-rim-esther-choi/'>
                         <FontAwesomeIcon icon={brands ("linkedin")} />
-                    </a>
-                </div>
-                <div>
-                <a href='https://www.linkedin.com/in/ye-rim-esther-choi/'>
-                        <FontAwesomeIcon icon={solid ("address-card")} />
                     </a>
                 </div>
             </div>

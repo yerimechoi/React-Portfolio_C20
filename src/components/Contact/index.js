@@ -32,23 +32,30 @@ function Contact() {
         console.log(formState);
     }
 
-    const overallStyle = { padding: '10px' };
-
     return (
-        <main style={overallStyle}>
-            <h1>Contact Me</h1>
-            <div>
+        <main className="contact">
+            <h2>Contact Me</h2>
+            <div className="contactForm">
                 <form>
-                    <label>Name</label>
-                    <input type="text" defaultValue={name} placeholder="Name" onChange={handleChange} />
+                    <div className="form">
+                        <label>Name</label>
+                        <input type="text" defaultValue={name}/>
+                    </div>
 
-                    <label>Email</label>
-                    <input type="email" defaultValue={email} placeholder="Email" onChange={handleChange} />
+                    <div className="form">
+                        <label>Email</label>
+                        <input type="email" defaultValue={email}/>
+                    </div>
 
-                    <label>Message</label>
-                    <textarea defaultValue={message} placeholder="Message" onChange={handleChange}></textarea>
+                    <div className="form">
+                        <label>Message</label>
+                        <textarea defaultValue={message}></textarea>
+                    </div>
 
-                    <button type="submit" onClick={handleSubmit}>Submit</button>
+                    <div>
+                        <button className="contactButton">Submit</button>
+                    </div>
+
                 </form>
             </div>
         </main>

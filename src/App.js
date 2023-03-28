@@ -29,7 +29,7 @@ function App() {
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderTab()}
-      <Footer />
+      <Footer currentPage={currentPage} handlePageChange={handlePageChange}/>
     </div>
   );
 }
