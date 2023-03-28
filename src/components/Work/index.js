@@ -41,6 +41,8 @@ function Work() {
                         image={card.image}
                         title={card.name}
                         description={card.description}
+                        repo={card.repo}
+                        link={card.link}
                     />
                 </div>
             ))}
