@@ -2,7 +2,7 @@ import React from "react";
 import Project from '../Project/index.js';
 import pic1 from "../../Assets/evie.jpg";
 import pic2 from "../../Assets/classicwhipz.jpg";
-import pic3 from "../../Assets/untitled.jpg";
+import pic3 from "../../Assets/JACE.png";
 
 const cardProject = [
     {
@@ -23,11 +23,11 @@ const cardProject = [
     },
     {
         id: 3,
-        name: 'TBD',
-        repo: 'https://google.com/',
-        link: 'https://google.com/',
+        name: 'JACE',
+        repo: 'https://github.com/cdennis27/JACE',
+        link: 'https://jace1971.herokuapp.com/tables/1',
         image: pic3,
-        description: 'TBD'
+        description: "JACE, also known as Javascript And Croissant Express, is a powerful full-stack web application that provides restaurants with a complete solution for managing in-house orders, customer authentication, order history, and payment processing. With JACE, restaurant owners can easily utilize a front-end interface for their customers to place orders, as well as track the status of orders in the kitchen, pulling information from data stored in the server. Whether you're a small cafe or a large restaurant chain, JACE can help you streamline your operations and provide your customers with a streamlined ordering experience."
     },
 ]
 
