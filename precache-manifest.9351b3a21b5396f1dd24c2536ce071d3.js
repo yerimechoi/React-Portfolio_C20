@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fb7f57c650292780011f",
-    "url": "/React-Portfolio_C20/static/css/main.2010bab1.chunk.css"
+    "revision": "f3e3ea88a0a93bfbf339",
+    "url": "/React-Portfolio_C20/static/css/main.786ac8ef.chunk.css"
   },
   {
-    "revision": "fb7f57c650292780011f",
-    "url": "/React-Portfolio_C20/static/js/main.fb7f57c6.chunk.js"
+    "revision": "f3e3ea88a0a93bfbf339",
+    "url": "/React-Portfolio_C20/static/js/main.f3e3ea88.chunk.js"
   },
   {
     "revision": "5827bcd02eb0a2850666",
@@ -28,11 +28,11 @@ self.__precacheManifest = [
     "url": "/React-Portfolio_C20/static/media/classicwhipz.f3c9232d.jpg"
   },
   {
-    "revision": "354877b763aac75fbe5bae22e5477c98",
-    "url": "/React-Portfolio_C20/static/media/untitled.354877b7.jpg"
+    "revision": "85d7c9d68f2ef0f5dc23d9d152787e9a",
+    "url": "/React-Portfolio_C20/static/media/JACE.85d7c9d6.png"
   },
   {
-    "revision": "2e13d3798675e4c611521203ef56ef26",
+    "revision": "b48acd854f1b31e901d7de88d1862542",
     "url": "/React-Portfolio_C20/index.html"
   }
 ];

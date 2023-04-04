@@ -1,7 +1,7 @@
 {
-  "main.css": "/React-Portfolio_C20/static/css/main.2010bab1.chunk.css",
-  "main.js": "/React-Portfolio_C20/static/js/main.fb7f57c6.chunk.js",
-  "main.js.map": "/React-Portfolio_C20/static/js/main.fb7f57c6.chunk.js.map",
+  "main.css": "/React-Portfolio_C20/static/css/main.786ac8ef.chunk.css",
+  "main.js": "/React-Portfolio_C20/static/js/main.f3e3ea88.chunk.js",
+  "main.js.map": "/React-Portfolio_C20/static/js/main.f3e3ea88.chunk.js.map",
   "static/css/1.abf7f6d7.chunk.css": "/React-Portfolio_C20/static/css/1.abf7f6d7.chunk.css",
   "static/js/1.5827bcd0.chunk.js": "/React-Portfolio_C20/static/js/1.5827bcd0.chunk.js",
   "static/js/1.5827bcd0.chunk.js.map": "/React-Portfolio_C20/static/js/1.5827bcd0.chunk.js.map",
@@ -9,10 +9,10 @@
   "runtime~main.js.map": "/React-Portfolio_C20/static/js/runtime~main.9c6015c1.js.map",
   "static/media/evie.jpg": "/React-Portfolio_C20/static/media/evie.6fc71b6e.jpg",
   "static/media/classicwhipz.jpg": "/React-Portfolio_C20/static/media/classicwhipz.f3c9232d.jpg",
-  "static/media/untitled.jpg": "/React-Portfolio_C20/static/media/untitled.354877b7.jpg",
-  "static/css/main.2010bab1.chunk.css.map": "/React-Portfolio_C20/static/css/main.2010bab1.chunk.css.map",
+  "static/media/JACE.png": "/React-Portfolio_C20/static/media/JACE.85d7c9d6.png",
+  "static/css/main.786ac8ef.chunk.css.map": "/React-Portfolio_C20/static/css/main.786ac8ef.chunk.css.map",
   "static/css/1.abf7f6d7.chunk.css.map": "/React-Portfolio_C20/static/css/1.abf7f6d7.chunk.css.map",
   "index.html": "/React-Portfolio_C20/index.html",
-  "precache-manifest.7e9ade53c1973fb92e23ecc392a5b201.js": "/React-Portfolio_C20/precache-manifest.7e9ade53c1973fb92e23ecc392a5b201.js",
+  "precache-manifest.9351b3a21b5396f1dd24c2536ce071d3.js": "/React-Portfolio_C20/precache-manifest.9351b3a21b5396f1dd24c2536ce071d3.js",
   "service-worker.js": "/React-Portfolio_C20/service-worker.js"
 }
